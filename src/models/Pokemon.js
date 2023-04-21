@@ -4,7 +4,7 @@ const { Schema } = mongoose
 const Pokemon = mongoose.model(
   'Pokemon',
   new Schema({
-    _id: {
+    id: {
       type: Number,
       required: true,
       unique: true
